@@ -1,0 +1,47 @@
+var a=["akash","ganesh","sumanth",4,5]
+var alength=a.length
+console.log(a.length)
+
+var a=[1,2,3,4,]
+var b=["akash","hello"]
+var c=a.concat(b)
+console.log(c)
+
+var a=[1,2,3,4,5]
+var b=a.slice(1,4)
+console.log(b)
+
+var a=["akash","sumanth",1,2,50]
+var b=a.indexOf(1)
+console.log(b)
+
+var a=[1,2,3,]
+a.unshift("akash")
+console.log(a)
+
+var a=[1,2,3]
+a.push=("akash")
+console.log(a)
+
+var a=[1,2,3,4]
+a. pop()
+console.log(a)
+
+var a=[1,2,3,4,5]
+a.shift()
+console.log(a)
+
+var a=[1,2,3,4,5]
+console.log(a.includes(10))
+
+var a="hello how are you"
+var b=a.split()
+console.log(b)
+
+var a=["hello","how","are","you"]
+var b=a.reverse()
+console.log(b)
+
+var a=["hello how are you"]
+var b= a.join()
+console.log(b)
